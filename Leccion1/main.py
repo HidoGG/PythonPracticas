@@ -1,4 +1,4 @@
-'''
+"""
 miVariable = 3
 print(miVariable)
 miVariable = "Hola a todos los estudiantes de la tecnicatura"
@@ -62,7 +62,7 @@ numero1 = int(input("Escribe el primer numero: "))
 numero2 = int(input("Escribe el segundo nuemro: "))
 resultado = numero1 + numero2
 print("El resultado de la suma es: ", resultado)
-'''
+"""
 """
 # Operadores Aridmeticos
 operadorA = 8
@@ -158,10 +158,105 @@ if num % 2 == 0:
 else:
     print(f'El valor del numero es: {num} es un numero INPAR')
 """
+"""
 num = int(input("Ingrese un numero: "))
 if num >= 18:
     print(f'Eres mayor de edad: {num}')
 else:
     print(f'Eres menor de edad: {num}')
+"""
+"""
+# Operador logico
+a = False
+b = False
+resultado = a and b
+print(resultado)
+
+# Operador or
+resultado = a or b
+print(resultado)
+
+# Operador not
+resultado = not a
+print(resultado)
+"""
+"""
+num = int(input("Escriba un nuemro: "))
+if num >= 0 and num <= 5:
+    print(f"Esta dentro del rango: {num}")
+else:
+    print(f"Esta fuera de rango: {num}")
+"""
+"""
+#Ejercicio or, not
+vacaciones = True
+diaDescanso = True
+if not (vacaciones or diaDescanso):
+    print("Tiene trabajo que hacer")
+else:
+    print("Puede asistir al juego")
+"""
+"""
+# Ejercicio: Rango entre 20 y 30 años
+edad = int(input("Que edad tienes: "))
+
+# Forma teorica (No se usa)
+veinte = edad >= 20 and edad < 30
+print(veinte)
+treinta = edad >= 30 and edad < 40
+print(treinta)
+
+if veinte or treinta:
+    if veinte:
+        print('Esta dentro del rango de los (20\'0) años')
+    elif treinta:
+          print('Esta dentro del rango de los (30\'0) años')
+else:
+    print("No esta dentro del rango de los 20 a 30 años")
+"""
+"""
+# Forma correcta 
+if (edad >= 20 and edad < 20) or (edad >= 30 and edad < 40):
+    print("Esta dentro del rango de los  (20) a (30) años" )
+else:
+    print("No esta dentro del rango de los 20 a 30 años")
+"""
+"""
+# Forma Sintaxis simplificada del operador and
+if (20 <= edad < 30) or (30 <= edad < 40):
+    print("Esta dentro del rango de los  (20) a (30) años" )
+else:
+    print("No esta dentro del rango de los 20 a 30 años")
+"""
+"""
+# Ejercicio El mayor de dos números
+num1 = int(input("Ingrese el primer numero: "))
+num2 = int(input("Ingrese el segundo numero: "))
+if num1 > num2:
+    print(f"El numero mayor es {num1}")
+else:
+    print(f"El numero mayor es {num2}")
+"""
+
+# Ejercico de Tienda de libros
+print("Ingrese los datos del libro")
+print("")
+nombreLibro = input("Ingrese el nombre del libro")
+idLibro = int(input("Ingrese el ID del libro"))
+precioLibro = int(input("Ingrese el Presio del libro"))
+print("El envio fue gratis, Escriba 1 (Si lo fue) y 2 (Si no lo fue)")
+EnvioGratis = input("Dijite su respuesta")
+
+print("Mostrar Respuestas")
+print(nombreLibro)
+print(idLibro)
+print(precioLibro)
+if EnvioGratis == 1:
+    print("El envio fue gratis")
+else:
+    print("El Envio fue pagado")
+
+
+
 
 
