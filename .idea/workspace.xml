@@ -4,36 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c52084d1-bf0a-434b-a5b2-753dede5f376" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PythonPracticas.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leccion3/Ejercicio5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leccion3/Ejercicio6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leccion3/Ejercicio7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leccion4/.idea/Leccion4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leccion4/Ejercicio01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leccion4/Ejercicio02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leccion4/Ejercicio03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leccion4/Ejercicio04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leccion4/Ejercicio05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leccion4/Ejercicio06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leccion4/Ejercicio07.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leccion4/Ejercicio08.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leccion4/Ejercicio09.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leccion4/Ejercicio10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leccion4/Ejercicio11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leccion4/EjercicioColecciones1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leccion4/EjercicioColecciones2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leccion4/EjercicioColecciones3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leccion4/EjercicoTuplasListas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leccion4/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practica/.idea/Practica.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Practica/Practica.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leccion5/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leccion5/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="c52084d1-bf0a-434b-a5b2-753dede5f376" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
