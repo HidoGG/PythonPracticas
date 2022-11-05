@@ -21,11 +21,6 @@ print(f'El objeto1 de la clase persona: {persona1.nombre} {persona1.apellido} Su
 persona2 = Persona('Osvaldo', 'Giordanini', 3556885, 45)
 print(f'El objeto2 de la clase persona: {persona2.nombre} {persona2.apellido} Su edad es: {persona2.edad}')
 
-#persona.mostrar_detalle(persona1) # Debemos pasarle una referencia para el self o darpa error
-
-persona1.telefono = '4445555289'
-print(f'este es el telefono de: {persona1.nombre} {persona1.telefono}') #Hemos creado un atributo de un objeto
-
 # Modificar datos
 persona1.nombre = 'Liliana'
 persona1.apellido ='Buccella'
@@ -34,11 +29,18 @@ print(f'El objeto1 de la clase persona: {persona1.nombre} {persona1.apellido} Su
 
 # Los atributos son: caracteristicas
 # los métodos son: el comportamiento que van a tener los objetos (acciones)
-persona1.mostrar_detalle()
+persona1.mostrar_detalle() # La referencia en este caso se pasa de manera automatica
 persona2.mostrar_detalle()
 
+# No se utiliza
+#persona.mostrar_detalle(persona1) # Debemos pasarle una referencia(seria la referencia persona1) para el self o dara error
 
-# print(persona2.telefono) El objeto persona2 no tiene este atributo, da error
+#Crear atributo, es un atributo superficial, para persona1
+persona1.telefono = '4445555289'
+print(f'este es el telefono de: {persona1.nombre} {persona1.telefono}') #Hemos creado un atributo de un objeto
+
+# El objeto persona2 no tiene este atributo, da error
+# print(persona2.telefono)
 
 persona3 = Persona('Rogelio', 'Roman', 5899666, 22, 'telefono', '25366588', 'Calle Lopez', 823,'manzana', 77,'casa', 18, altura=1.83, peso=105, CFavorito='Azul', auto='Citron', modelo=2015)
 persona3.mostrar_detalle()
