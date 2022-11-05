@@ -1,5 +1,7 @@
 class Persona2:
     def __init__(self, nombre, apellido, edad):  # Esta encapsulado por el " _ "
+        #Los encapsulamos, para que solo se puedan acceder
+        #con el Getter o Setter
         self._nombre = nombre
         self._apellido = apellido
         self._edad = edad
@@ -18,11 +20,11 @@ class Persona2:
         self._nombre = nombre
 
     @property  # decorador
-    def apellid(self):  # Método Getter
+    def apellido(self):  # Método Getter
         print('Estamos utilizando el método get')
         return self._apellido
 
-    @apellid.setter
+    @apellido.setter
     def apellido(self, apellido):  # Método Setter
         print('Estamos utilizando el método Set')
         self._apellido = apellido
@@ -64,9 +66,12 @@ if __name__ == '__main__':
     # para modificar, y mostrar los cambios con el método mostrar detalles
 
     # Primer cambio
+    # Creación de Objeto (persona2), con su contructor Persona2(......)
+    #Visualizo con el Set
     persona2 = Persona2('Gabriel', 'Hidalgo', 31)
     print(persona2.mostrar_detalle())
 
+    #Realizando cambios con el Get
     persona2.nombre = 'Jose'
     persona2.apellido = 'Caruzo'
     persona2.edad = 50
@@ -76,9 +81,12 @@ if __name__ == '__main__':
     print(persona2.mostrar_detalle())
 
     # Segundo cambio
+    # Creación de Objeto (persona3), con su contructor Persona2(......)
+    # Visualizo con el Set
     persona3 = Persona2('Carlos', 'Chaler', 31)
     print(persona3.mostrar_detalle())
 
+    # Realizando cambios con el Get
     persona3.nombre = 'Norma'
     persona3.apellido = 'gonzales'
     persona3.edad = 30
@@ -87,10 +95,13 @@ if __name__ == '__main__':
     print(persona3.edad)
     print(persona3.mostrar_detalle())
 
-    # Tercer cambio
+    #Tercer cambio
+    #Creación de Objeto (persona4), con su contructor Persona2(......)
+    # Visualizo con el Set
     persona4 = Persona2('Matias', 'Hochoner', 31)
     print(persona4.mostrar_detalle())
 
+    # Realizando cambios con el Get
     persona4.nombre = 'Tomas'
     persona4.apellido = 'Carrizo'
     persona4.edad = 20
